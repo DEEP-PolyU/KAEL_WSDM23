@@ -9,7 +9,7 @@ It adaptively updates the ensemble learning policy in each iteration based on ac
 
 ## Usage
 - Ranking Files
-Run your chosen base error detectors on the raw dataset that contain errors, i.e., triples labeled as 1.<br>
+Run your chosen base error detectors on raw datasets that contain errors, i.e., triples labeled as 1.<br>
 Generate ranking files according to different scoring functions in different base detectors.
 - Apply TransE to raw dataset and maintain a unified embedding table;
 - Prepare an embedding file for each ranking file, make sure same entity/triple shares the same embedding vector;
