@@ -18,8 +18,8 @@ Generate ranking files according to different scoring functions in different bas
 
 
 ## Reference in BibTex:
-@inproceedings{dong2023active,
-Title={Active ensemble learning for knowledge graph error detection},
-Author={Dong, Junnan and Zhang, Qinggang and Huang, Xiao and Tan, Qiaoyu and Zha, Daochen and Zihao, Zhao},
-Booktitle={Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
+@inproceedings{dong2023active,<br>
+Title={Active ensemble learning for knowledge graph error detection},<br>
+Author={Dong, Junnan and Zhang, Qinggang and Huang, Xiao and Tan, Qiaoyu and Zha, Daochen and Zihao, Zhao},<br>
+Booktitle={Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},<br>
 Year={2023}}
