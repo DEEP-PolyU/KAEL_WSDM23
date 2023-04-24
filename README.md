@@ -8,7 +8,7 @@ It adaptively updates the ensemble learning policy in each iteration based on ac
 <img src="/images/KAEL.jpg" alt="KAEL" width="600"/>
 
 ## Usage
-- Ranking Files
+- Ranking Files<br>
 Run your chosen base error detectors on raw datasets that contain errors, i.e., triples labeled as 1.<br>
 Generate ranking files according to different scoring functions in different base detectors.
 - Apply TransE to raw dataset and maintain a unified embedding table;
