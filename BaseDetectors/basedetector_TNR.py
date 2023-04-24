@@ -164,20 +164,3 @@ with open(writepath, 'w') as f:
             f.write(',')
             f.write(dictionary[str([x, y, z])])
             f.write('\n')
-
-################### Calculate accuracy ###################
-print('----------------Calculating Accuracy-------------')
-a = 1
-totalt = 0
-ttms = open(writepath)
-for line in ttms.readlines():
-    label = line.strip('\n').split(',')[-1]
-    if label == '1':
-        totalt += 1
-    if a == 3257:
-        print('TransE 1%', round(totalt / a * 100, 3))
-    elif a == 9769:
-        print('TransE 3%', round(totalt / a * 100, 3))
-    elif a == 16281:
-        print('TransE 5%', round(totalt / a * 100, 3))
-    a += 1
