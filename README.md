@@ -4,8 +4,8 @@ Active Ensemble Learning for Knowledge Graph Error Detection, WSDM2023, Singapor
 ## Framework
 We propose a new framwork to effectively combine a set of off-the-shelf KG error detection algorithms with minimum human annotations.<br>
 It adaptively updates the ensemble learning policy in each iteration based on active queries as:<br>
-<img src="/images/KAEL_running.jpg" alt="KAEL_running" width="300"/><br>
-<img src="/images/KAEL.jpg" alt="KAEL" width="600"/>
+<img src="images/KAEL_running.jpg" alt="KAEL_running" width="300"/><br>
+<img src="images/KAEL.jpg" alt="KAEL" width="600"/>
 
 ## Usage
 - Ranking Files<br>
