@@ -9,7 +9,7 @@ It adaptively updates the ensemble learning policy in each iteration based on ac
 
 ## Model
 - A Three-Stage Scheme based on the tailored MAB<br>
-1. `initialize`: Initializes the parameters by prioritizing the overlaps from all base detectors.
+1. `initialization`: Initializes the parameters by prioritizing the overlaps from all base detectors.
 2. `ranking`: Ranks the triples for each arm and temporarily store the best triples and their expectations for current arm.
 3. `train`: Trains the tailored MAB within the remaining opportunities.
 4. `application`: Applies the trained model and parameters for errors within the remaining iterations.
