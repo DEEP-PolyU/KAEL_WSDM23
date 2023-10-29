@@ -95,11 +95,11 @@ def dictionary(path):
     for line in csv.readlines():
         x = list(map(float, line.strip('\n').split(',')[1:]))
         #x = line.strip('\n').split(',')[1:]
-        dimention = len(x)
+        dimension = len(x)
         #print(x)
-        #print(dimention)
+        #print(dimension)
         dictionary[tuple(x)] = line.strip('\n').split(',')[0]
-    return dictionary, dimention
+    return dictionary, dimension
 
 
 def same_elements4(a, b, c, d):
